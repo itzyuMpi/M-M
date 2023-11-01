@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    word-break: break-word;
+}
+
+@font-face {
+    font-family: f1;
+    src: url(./../font/AllTogetherSans-Bold.woff2);
+}
+@font-face {
+    font-family: f2;
+    src: url(./../font/AllTogetherSans-Regular.woff2);
+}
+@font-face {
+    font-family: f3;
+    src: url(./../font/AllTogetherSans-SemiLight.woff2);
+}
+@font-face {
+    font-family: f4;
+    src: url(./../font/AllTogetherSerif-CnBold.woff2);
+}
+@font-face {
+    font-family: f5;
+    src: url(./../font/AllTogetherSerif-CnLight.woff2);
+}
+@font-face {
+    font-family: f6;
+    src: url(./../font/AllTogetherSerif-WideBlk.woff2);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+div.next1{
+    width: 48px;
+    height: 325px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: -15px;
+}
+div.prev1{
+    width: 48px;
+    height: 325px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -15px;
+}
+div.next2{
+    width: 48px;
+    height: 325px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: -5px;
+}
+div.prev2{
+    width: 48px;
+    height: 325px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -5px;
+}
+
+div.next5{
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: -10px;
+}
+div.prev5{
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: -10px;
+}
+div.next6{
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: -10px;
+}
+div.prev6{
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    left: -10px;
+}
+
+div.next1::after{
+    font-size: 32px;
+    font-weight: 600;
+    color: #5A1F06;
+    opacity: 0;
+    transition: 300ms;
+}
+div.prev1::after{
+    font-size: 32px;
+    font-weight: 600;
+    color: #5A1F06;
+    opacity: 0;
+    transition: 300ms;
+}
+
+div.myyumpi1:hover>div.next1::after{
+    opacity: 1;
+}
+div.myyumpi1:hover>div.prev1::after{
+    opacity: 1;
+}
+div.myyumpi2:hover>div.next1::after{
+    opacity: 1;
+}
+div.myyumpi2:hover>div.prev1::after{
+    opacity: 1;
+}
+div.myyumpi5:hover>div.next1::after{
+    opacity: 1;
+}
+div.myyumpi5:hover>div.prev1::after{
+    opacity: 1;
+}
+div.myyumpi6:hover>div.next1::after{
+    opacity: 1;
+}
+div.myyumpi6:hover>div.prev1::after{
+    opacity: 1;
+}
+svg.css-11omhyd>g:nth-of-type(2){
+    display: none;
+}
+ul.ul1>li:hover>div:nth-of-type(1)>svg.css-11omhyd>g:nth-of-type(2){
+    display: block;
+}
+ul.ul1>li:hover>div:nth-of-type(1)>svg.css-11omhyd>g:nth-of-type(1){
+    display: none;
+}
+
+.rotatex:hover>span.rotatex{
+    transform: rotatey(90deg);
+}
+
+.bagin{
+    right: 0px;
+}
+.bagout{
+    right: -375px;
+}
+.smenuin{
+    left: 0px;
+}
+.smenuout{
+    left:-384px
+}
+.block1{
+    display: block;
+}
+
+.boxshadowcolor{
+    background-image: radial-gradient(101.97% 2204.87% at 101.97% 40.83%, #DA418C 0%, #D70100 15.27%, #FF6701 29.33%, #FFD200 43.4%, #00B035 56.42%, #0F79EB 71%, #BE9FFF 84.54%, #DA408F 100%);
+}
+
+div.container1>div>div:nth-of-type(1)>div>a:nth-of-type(2):hover{
+    box-shadow: -6px 6px 0 #5A1F06;
+}
+
+.ashadow:hover{
+    box-shadow: -6px 6px 0 #5A1F06;
+}
+.ashadow1:hover{
+    box-shadow: -6px 6px 0 #FFD200;
+}
+
+div.container1>div>div:nth-of-type(1)>div>a:nth-of-type(1):hover~div:nth-of-type(1){
+    top: 6px;
+    left: -6px;
+}
+.circle{
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.25);
+    background-image: radial-gradient(
+        60% 60% at 39.92% 40%,
+        rgba(45, 40, 43, 0) 58.33%,
+        rgba(45, 40, 43, 0.08) 78.12%,
+        rgba(45, 40, 43, 0.36) 100%
+      );
+}
+
+.overflow1{
+    overflow-y: hidden;
+}
+
+a.aspecial:hover>span{
+    transform: rotateY(90deg);
+}
